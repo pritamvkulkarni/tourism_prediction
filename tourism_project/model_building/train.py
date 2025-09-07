@@ -14,7 +14,6 @@ import os
 # for hugging face space authentication to upload files
 from huggingface_hub import login, HfApi, create_repo
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
-from google.colab import userdata # Import userdata to access Colab secrets
 
 api = HfApi()
 

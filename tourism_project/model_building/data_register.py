@@ -1,7 +1,6 @@
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 from huggingface_hub import HfApi, create_repo
 import os
-from google.colab import userdata
 
 
 repo_id = "pkulkar/tourism-prediction"
